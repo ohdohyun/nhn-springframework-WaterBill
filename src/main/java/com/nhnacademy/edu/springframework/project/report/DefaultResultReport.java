@@ -1,19 +1,18 @@
 package com.nhnacademy.edu.springframework.project.report;
 
-import com.nhnacademy.edu.springframework.project.repository.DefaultWaterBillRepository;
+import com.nhnacademy.edu.springframework.project.repository.WaterBillRepository;
 import com.nhnacademy.edu.springframework.project.repository.WaterBill;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
 public class DefaultResultReport implements ResultReport {
-    private final DefaultWaterBillRepository waterBillRepository;
+    private final WaterBillRepository waterBillRepository;
 
-    public DefaultResultReport(DefaultWaterBillRepository waterBillRepository) {
+    public DefaultResultReport(WaterBillRepository waterBillRepository) {
         this.waterBillRepository = waterBillRepository;
     }
 

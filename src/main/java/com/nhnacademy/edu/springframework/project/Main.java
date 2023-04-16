@@ -2,13 +2,10 @@ package com.nhnacademy.edu.springframework.project;
 
 import com.nhnacademy.edu.springframework.project.config.AppConfig;
 import com.nhnacademy.edu.springframework.project.report.ResultReport;
-import com.nhnacademy.edu.springframework.project.repository.DefaultWaterBillRepository;
+import com.nhnacademy.edu.springframework.project.repository.WaterBillRepository;
 import com.nhnacademy.edu.springframework.project.repository.TariffRepository;
-import com.nhnacademy.edu.springframework.project.repository.WaterBill;
 import com.nhnacademy.edu.springframework.project.service.BillService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.List;
 
 /**
  * 순번 , 지자체명 , 업종 , 단계 , 구간시작(세제곱미터)  , 구간끝(세제곱미터)  , 구간금액(원)  , 단계별 기본요금(원)
@@ -19,7 +16,7 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         TariffRepository tariffRepository = context.getBean("csvTariffRepository", TariffRepository.class);
         BillService billService = context.getBean("defaultBillService", BillService.class);
-        DefaultWaterBillRepository waterBillRepository = context.getBean("defaultWaterBillRepository", DefaultWaterBillRepository.class);
+        WaterBillRepository waterBillRepository = context.getBean("waterBillRepository", WaterBillRepository.class);
         ResultReport resultReport = context.getBean("defaultResultReport", ResultReport.class);
 
         tariffRepository.load("Tariff_20220331.csv");

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class DefaultWaterBillRepository {
+public class WaterBillRepository {
     List<WaterBill> waterBills = new ArrayList<>();
 
     public void load(List<WaterBill> waterBills) {
