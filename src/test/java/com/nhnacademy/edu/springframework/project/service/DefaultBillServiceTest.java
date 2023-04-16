@@ -1,7 +1,6 @@
 package com.nhnacademy.edu.springframework.project.service;
 
 import com.nhnacademy.edu.springframework.project.config.AppConfig;
-import com.nhnacademy.edu.springframework.project.repository.TariffRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

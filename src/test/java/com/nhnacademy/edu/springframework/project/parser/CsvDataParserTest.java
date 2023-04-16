@@ -1,7 +1,6 @@
 package com.nhnacademy.edu.springframework.project.parser;
 
 import com.nhnacademy.edu.springframework.project.config.AppConfig;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
