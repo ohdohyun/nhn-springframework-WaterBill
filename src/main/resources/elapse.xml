@@ -1,0 +1,249 @@
+CsvDataParser.parse 5ms
+CsvTariffRepository.load 12ms
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 0ms
+WaterBillRepository.load 9ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 8ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 1ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 6ms
+CsvTariffRepository.load 15ms
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 2ms
+WaterBillRepository.load 10ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 6ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 5ms
+CsvTariffRepository.load 13ms
+CsvTariffRepository.findByUsage 1ms
+DefaultBillService.calCost 2ms
+WaterBillRepository.load 10ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 6ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 7ms
+CsvTariffRepository.load 16ms
+CsvTariffRepository.findByUsage 1ms
+DefaultBillService.calCost 3ms
+WaterBillRepository.load 11ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 8ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 6ms
+CsvTariffRepository.load 14ms
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 2ms
+WaterBillRepository.load 10ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 6ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61a88b8c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22295ec4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5adb0db3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f270e0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a760689]
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f1bfe23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@e19bb76, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@512535ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71529963, org.springframework.test.context.event.EventPublishingTestExecutionListener@61a88b8c]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61a88b8c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22295ec4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5adb0db3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f270e0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a760689]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e19bb76, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@512535ff, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@71529963, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61a88b8c, org.springframework.test.context.event.EventPublishingTestExecutionListener@22295ec4]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f1bfe23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@e19bb76, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@512535ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71529963, org.springframework.test.context.event.EventPublishingTestExecutionListener@61a88b8c]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f1bfe23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@e19bb76, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@512535ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71529963, org.springframework.test.context.event.EventPublishingTestExecutionListener@61a88b8c]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@149dd36b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@38831718, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c1156a7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33fe57a9, org.springframework.test.context.event.EventPublishingTestExecutionListener@4982cc36]
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22d7b4f8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@149dd36b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@38831718, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c1156a7, org.springframework.test.context.event.EventPublishingTestExecutionListener@33fe57a9]
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 7ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 6ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 5ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f1bfe23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@e19bb76, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@512535ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71529963, org.springframework.test.context.event.EventPublishingTestExecutionListener@61a88b8c]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 5ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 4ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e19bb76, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@512535ff, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@71529963, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61a88b8c, org.springframework.test.context.event.EventPublishingTestExecutionListener@22295ec4]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 6ms
+CsvDataParser.parse 1ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 5ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 5ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 1ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22d7b4f8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@149dd36b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@38831718, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c1156a7, org.springframework.test.context.event.EventPublishingTestExecutionListener@33fe57a9]
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1941a8ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22d7b4f8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@149dd36b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38831718, org.springframework.test.context.event.EventPublishingTestExecutionListener@2c1156a7]
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4982cc36, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@691939c9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DirtiesContextTestExecutionListener@e19bb76, org.springframework.test.context.event.EventPublishingTestExecutionListener@512535ff]
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 6ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4982cc36, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@691939c9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DirtiesContextTestExecutionListener@e19bb76, org.springframework.test.context.event.EventPublishingTestExecutionListener@512535ff]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4982cc36, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@691939c9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DirtiesContextTestExecutionListener@e19bb76, org.springframework.test.context.event.EventPublishingTestExecutionListener@512535ff]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+DefaultBillService.calCost 0ms
+CsvDataParser.parse 7ms
+CsvTariffRepository.load 18ms
+CsvTariffRepository.findByUsage 1ms
+WaterBillRepository.load 13ms
+DefaultBillService.calCost 17ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 8ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 5ms
+CsvTariffRepository.load 12ms
+CsvTariffRepository.findByUsage 1ms
+WaterBillRepository.load 11ms
+DefaultBillService.calCost 17ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 8ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 1ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f1bfe23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@e19bb76, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@512535ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71529963, org.springframework.test.context.event.EventPublishingTestExecutionListener@61a88b8c]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 4ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 0ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+WaterBillRepository.getWaterBills 8ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+WaterBillRepository.load 8ms
+DefaultBillService.calCost 9ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@691939c9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4f1bfe23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e19bb76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@512535ff, org.springframework.test.context.event.EventPublishingTestExecutionListener@71529963]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+WaterBillRepository.load 10ms
+DefaultBillService.calCost 11ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@64a8c844, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3f6db3fb, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@52de51b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18c5069b, org.springframework.test.context.event.EventPublishingTestExecutionListener@3a0d172f]
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 4ms
+CsvDataParser.parse 0ms
+CsvTariffRepository.load 0ms
+CsvTariffRepository.findByUsage 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51827393, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3be4f71, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5c645b43, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6bd16207, org.springframework.test.context.event.EventPublishingTestExecutionListener@298d9a05]
+WaterBillRepository.getWaterBills 8ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19ccca5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@769d513, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5e4fa1da, org.springframework.test.context.support.DirtiesContextTestExecutionListener@588cd519, org.springframework.test.context.event.EventPublishingTestExecutionListener@3f92c349]
+CsvDataParser.parse 0ms
+CsvDataParser.parse 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@511505e7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@646811d6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@15fdd1f2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cb0f763, org.springframework.test.context.event.EventPublishingTestExecutionListener@7573e12f]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+WaterBillRepository.load 0ms
+DefaultBillService.calCost 0ms
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d64e326, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@13f95696, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@cd1d761, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68be8808, org.springframework.test.context.event.EventPublishingTestExecutionListener@32193bea]
+DefaultBillService.calCost 0ms
+CsvTariffRepository.findByUsage 0ms
+WaterBillRepository.load 9ms
+DefaultBillService.calCost 11ms
+CsvDataParser.parse 9ms
+CsvTariffRepository.load 27ms
+CsvTariffRepository.findByUsage 1ms
+WaterBillRepository.load 17ms
+DefaultBillService.calCost 23ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 10ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
+CsvDataParser.parse 6ms
+CsvTariffRepository.load 17ms
+CsvTariffRepository.findByUsage 0ms
+WaterBillRepository.load 10ms
+DefaultBillService.calCost 15ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.report 7ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportByCity 0ms
+WaterBillRepository.getWaterBills 0ms
+DefaultResultReport.reportBySector 0ms
