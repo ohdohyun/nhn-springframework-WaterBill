@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = AppConfig.class)
 class CsvDataParserTest {
@@ -16,7 +18,7 @@ class CsvDataParserTest {
 
     @Test
     void parse() {
-        Assertions.assertThrows(RuntimeException.class, () -> dataParser.parse(" "));
-        Assertions.assertDoesNotThrow(()->dataParser.parse("Tariff_20220331.csv"));
+        assertThrows(RuntimeException.class, () -> dataParser.parse(" "));
+        assertDoesNotThrow(()->dataParser.parse("Tariff_20220331.csv"));
     }
 }

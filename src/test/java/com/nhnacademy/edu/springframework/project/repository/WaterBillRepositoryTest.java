@@ -21,6 +21,6 @@ class WaterBillRepositoryTest {
 
     @Test
     void getWaterBills() {
-        waterBillRepository.getWaterBills();
+        assertDoesNotThrow(() -> waterBillRepository.getWaterBills());
     }
 }
