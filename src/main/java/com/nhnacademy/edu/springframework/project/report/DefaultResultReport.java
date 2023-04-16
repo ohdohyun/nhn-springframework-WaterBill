@@ -1,5 +1,6 @@
 package com.nhnacademy.edu.springframework.project.report;
 
+import com.nhnacademy.edu.springframework.project.repository.DefaultWaterBillRepository;
 import com.nhnacademy.edu.springframework.project.repository.WaterBill;
 import org.springframework.stereotype.Component;
 
@@ -10,11 +11,16 @@ import java.util.stream.Collectors;
 
 @Component
 public class DefaultResultReport implements ResultReport {
+    private final DefaultWaterBillRepository waterBillRepository;
+
+    public DefaultResultReport(DefaultWaterBillRepository waterBillRepository) {
+        this.waterBillRepository = waterBillRepository;
+    }
 
     @Override
-    public void report(List<WaterBill> waterBillList) {
+    public void report() {
 
-        List<WaterBill> orderedWaterBillList = waterBillList.stream()
+        List<WaterBill> orderedWaterBillList = waterBillRepository.getWaterBills().stream()
                 .sorted(Comparator.comparingDouble(WaterBill::getTotalBill))
                 .limit(5)
                 .collect(Collectors.toList());
@@ -25,8 +31,8 @@ public class DefaultResultReport implements ResultReport {
     }
 
     @Override
-    public void reportByCity(List<WaterBill> waterBillList, String city) {
-        List<WaterBill> filteredList = waterBillList.stream()
+    public void reportByCity(String city) {
+        List<WaterBill> filteredList = waterBillRepository.getWaterBills().stream()
                 .filter(waterBill -> city.equals(waterBill.getCity()))
                 .sorted(Comparator.comparingDouble(WaterBill::getTotalBill))
                 .limit(5)
@@ -38,8 +44,8 @@ public class DefaultResultReport implements ResultReport {
     }
 
     @Override
-    public void reportBySector(List<WaterBill> waterBillList, String sector) {
-        List<WaterBill> filteredList = waterBillList.stream()
+    public void reportBySector(String sector) {
+        List<WaterBill> filteredList = waterBillRepository.getWaterBills().stream()
                 .filter(waterBill -> sector.equals(waterBill.getSector()))
                 .sorted(Comparator.comparingDouble(WaterBill::getTotalBill))
                 .limit(5)

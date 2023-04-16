@@ -1,9 +1,8 @@
 package com.nhnacademy.edu.springframework.project;
 
 import com.nhnacademy.edu.springframework.project.config.AppConfig;
-import com.nhnacademy.edu.springframework.project.report.DefaultResultReport;
 import com.nhnacademy.edu.springframework.project.report.ResultReport;
-import com.nhnacademy.edu.springframework.project.repository.Tariff;
+import com.nhnacademy.edu.springframework.project.repository.DefaultWaterBillRepository;
 import com.nhnacademy.edu.springframework.project.repository.TariffRepository;
 import com.nhnacademy.edu.springframework.project.repository.WaterBill;
 import com.nhnacademy.edu.springframework.project.service.BillService;
@@ -20,16 +19,19 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         TariffRepository tariffRepository = context.getBean("csvTariffRepository", TariffRepository.class);
         BillService billService = context.getBean("defaultBillService", BillService.class);
+        DefaultWaterBillRepository waterBillRepository = context.getBean("defaultWaterBillRepository", DefaultWaterBillRepository.class);
         ResultReport resultReport = context.getBean("defaultResultReport", ResultReport.class);
+
         tariffRepository.load("Tariff_20220331.csv");
         int usage = 1000;
 
-        List<WaterBill> waterBillList = billService.calCost(usage);
-        resultReport.report(waterBillList);     // defaultReport 입니다. 사용량에 부합하는 결과중 가장 저렴한 5개만 출력합니다
-        System.out.println("================");
-        resultReport.reportByCity(waterBillList, "고령군");
-        System.out.println("================");
-        resultReport.reportBySector(waterBillList, "공업용");
+        waterBillRepository.load(billService.calCost(usage));
 
+        System.out.println("================ defaultReport");
+        resultReport.report();     // defaultReport 입니다. 사용량에 부합하는 결과중 가장 저렴한 5개만 출력합니다
+        System.out.println("================ 고령군만 출력");
+        resultReport.reportByCity("고령군");
+        System.out.println("================ 공업용만 출력");
+        resultReport.reportBySector("공업용");
     }
 }
