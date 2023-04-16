@@ -2,7 +2,7 @@ package com.nhnacademy.edu.springframework.project.repository;
 
 public class Tariff {
 
-    private int traiffId;
+    private int tariffId;
     private String city;
     private String sector;
     private int level;
@@ -10,8 +10,8 @@ public class Tariff {
     private int endRange;
     private int unitPrice;
 
-    public Tariff(int traiffId, String city, String sector, int level, int startRange, int endRange, int unitPrice) {
-        this.traiffId = traiffId;
+    public Tariff(int tariffId, String city, String sector, int level, int startRange, int endRange, int unitPrice) {
+        this.tariffId = tariffId;
         this.city = city;
         this.sector = sector;
         this.level = level;
@@ -30,7 +30,7 @@ public class Tariff {
 
     @Override
     public String toString() {
-        return "traiffId = " + traiffId
+        return "tariffId = " + tariffId
                 + ", city = " + city
                 + ", sector = " + sector
                 + ", level = " + level

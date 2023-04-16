@@ -23,9 +23,9 @@ public class CsvDataParser implements DataParser {
             List<Tariff> tariffs = new ArrayList<>();
             while ((line = br.readLine()) != null) {
                 String[] data = line.split(",");
-                // 공백 제거해서 Traiff객체로 만들고, 리스트에 담아서 리턴
+                // 공백 제거해서 Tariff 객체로 만들고, 리스트에 담아서 리턴
                 tariffs.add(new Tariff(
-                        Integer.parseInt(data[0].trim()),   // traiffId
+                        Integer.parseInt(data[0].trim()),   // tariffId
                         data[1].trim(),                     // city
                         data[2].trim(),                     // sector
                         Integer.parseInt(data[3].trim()),   // level

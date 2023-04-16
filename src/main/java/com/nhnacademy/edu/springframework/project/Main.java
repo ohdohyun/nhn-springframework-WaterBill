@@ -2,7 +2,8 @@ package com.nhnacademy.edu.springframework.project;
 
 import com.nhnacademy.edu.springframework.project.config.AppConfig;
 import com.nhnacademy.edu.springframework.project.repository.Tariff;
-import com.nhnacademy.edu.springframework.project.repository.TraiffRepository;
+import com.nhnacademy.edu.springframework.project.repository.TariffRepository;
+import com.nhnacademy.edu.springframework.project.service.BillService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
@@ -14,10 +15,13 @@ public class Main {
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        TraiffRepository traiffRepository = context.getBean("csvTraiffRepository", TraiffRepository.class);
+        TariffRepository tariffRepository = context.getBean("csvTariffRepository", TariffRepository.class);
 
-        traiffRepository.load("s");
-        List<Tariff> list = traiffRepository.findByUsage(1000);
+        tariffRepository.load("s");
+
+        BillService billService = context.getBean("defaultBillService", BillService.class);
+
+        List<Tariff> list = tariffRepository.findByUsage(1000);
         for (Tariff tariff : list) {
             System.out.println(tariff.toString());
         }

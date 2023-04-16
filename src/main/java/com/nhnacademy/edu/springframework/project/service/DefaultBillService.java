@@ -1,14 +1,14 @@
 package com.nhnacademy.edu.springframework.project.service;
 
-import com.nhnacademy.edu.springframework.project.repository.TraiffRepository;
+import com.nhnacademy.edu.springframework.project.repository.TariffRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class DefaultBillService implements BillService {
-    private final TraiffRepository traiffRepository;
+    private final TariffRepository tariffRepository;
 
-    public DefaultBillService(TraiffRepository traiffRepository) {
-        this.traiffRepository = traiffRepository;
+    public DefaultBillService(TariffRepository tariffRepository) {
+        this.tariffRepository = tariffRepository;
     }
 
     @Override
