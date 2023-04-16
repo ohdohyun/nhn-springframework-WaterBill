@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 @Component
 public class CsvTariffRepository implements TariffRepository {
 
-    //TODO 저장할 자료구조(메모리)
     List<Tariff> tariffs = new ArrayList<>();
 
     private final DataParser dataParser;

@@ -14,8 +14,7 @@ public class CsvDataParser implements DataParser {
     @Override
     public List<Tariff> parse(String filePath) {
         try {
-            //TODO 고정된 파일경로를 filePath로 수정
-            URL resource = getClass().getClassLoader().getResource("Tariff_20220331.csv");
+            URL resource = getClass().getClassLoader().getResource(filePath);
             File csv = new File(resource.getFile());
             BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(csv)));
             String line = null;

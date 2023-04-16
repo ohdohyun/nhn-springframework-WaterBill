@@ -28,6 +28,18 @@ public class Tariff {
         return endRange;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public String getSector() {
+        return sector;
+    }
+
+    public int getUnitPrice() {
+        return unitPrice;
+    }
+
     @Override
     public String toString() {
         return "tariffId = " + tariffId
