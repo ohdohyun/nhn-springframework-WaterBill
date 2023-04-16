@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = AppConfig.class)
-class CsvTariffRepositoryTest {
+class MemoryTariffRepositoryTest {
     @Autowired
     TariffRepository csvTariffRepository;
     @Autowired

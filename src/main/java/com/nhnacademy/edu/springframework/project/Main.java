@@ -16,12 +16,12 @@ public class Main {
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        TariffRepository tariffRepository = context.getBean("csvTariffRepository", TariffRepository.class);
+        TariffRepository tariffRepository = context.getBean("memoryTariffRepository", TariffRepository.class);
         BillService billService = context.getBean("defaultBillService", BillService.class);
         WaterBillRepository waterBillRepository = context.getBean("waterBillRepository", WaterBillRepository.class);
         ResultReport resultReport = context.getBean("defaultResultReport", ResultReport.class);
 
-        tariffRepository.load("Tariff_20220331.csv");
+        tariffRepository.load("Tariff_20220331.json");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Usage >> ");
